@@ -72,8 +72,6 @@ class AP:
         ap_str = ""
 
         number_of_bytes_to_extract = 4
-        # number_of_bytes_to_extract = 3 todo: entropy argumentation (bytes_to_extract)
-        # no. of bytes to extract can be set to 4
 
         if int(self.flags) == 0:
             x = 2
@@ -96,9 +94,9 @@ class AP:
 
 def convert_scan_data_to_shake(scan_data_in):
     """
-    Converts #todo: continue
-    :param scan_data_in:
-    :return:
+    Converts a list of WiFi-scans into a list of SHAKE hashes
+    :param scan_data_in: List of WiFi-scans
+    :return: Dict of SHAKE hashes
     """
     aps_shakes = {}
     for aps in scan_data_in:
