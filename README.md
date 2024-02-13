@@ -69,8 +69,11 @@ in that same location.
 ### Beacon frame min-entropy
 
 For BEACON_FRAME_MIN_ENTROPY see literature:
+
 https://www.distributed-systems.net/my-data/papers/2022.etaa.pdf
+
 https://www.distributed-systems.net/my-data/papers/2023.ispec.pdf
+
 http://essay.utwente.nl/94293/1/Ciresica_MA_EEMCS.pdf
 
 
